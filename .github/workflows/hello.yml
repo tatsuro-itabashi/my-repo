@@ -1,7 +1,0 @@
-name: Error Example Workflow
-on: [push]
-jobs:
-  error-job:
-    run-on: ubuntu-latest
-    steps:
-      - run: date
