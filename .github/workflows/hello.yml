@@ -1,8 +1,7 @@
-name: Hello
+name: Error Example Workflow
 on: [push]
 jobs:
-  hello:
-    runs-on: ubuntu-latest
+  error-job:
+    run-on: ubuntu-latest
     steps:
-      - run: echo "Hello, world!"
-      - uses: actions/checkout@v4
+      - run: date
