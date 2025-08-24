@@ -1,7 +1,0 @@
-name: Hello World
-on: [push]
-jobs:
-  error-job:
-    runs-on: ubuntu-latest
-    steps:
-      - run: "Hello World!!"
